@@ -7,14 +7,14 @@ type Props = {
     messages: Message[];
     inputValue: string;
     onChangeInput: (value: string) => void;
-    onSend: () => void;
+    onClickOnSend: () => void;
 };
 
 export default function ChatWindow({
-  messages,
-  inputValue,
-  onChangeInput,
-  onSend
+    messages,
+    inputValue,
+    onChangeInput,
+    onClickOnSend
 }: Props) {
   return (
     <div className={style.container}>
@@ -27,7 +27,7 @@ export default function ChatWindow({
       <SendInput
         value={inputValue}
         onChange={onChangeInput}
-        onClickOnSend={onSend}
+        onClickOnSend={onClickOnSend}
       />
     </div>
   );

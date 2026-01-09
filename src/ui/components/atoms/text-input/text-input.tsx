@@ -1,14 +1,14 @@
 import style from "./style.module.css";
 
 type Props = {
-    value: string;
-    placeholder?: string;
+    value: string
+    placeholder: string;
     onChange: (value: string) => void;
 };
 
 export default function TextInput({
     value,
-    placeholder = "Escribí tu mensaje...",
+    placeholder,
     onChange
 }: Props) {
     return (

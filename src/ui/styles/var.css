@@ -1,0 +1,28 @@
+:root {
+	
+	--primary:#E60073;
+
+	--error: #BA1A1A;
+	--on-error: #FBF8FF;
+	
+    --buble-background-chatbot: #ECECF0;
+    --on-buble-background-chatbot: #3A1C2E;
+
+    --buble-background-user: #F3A5C8;
+    --on-buble-background-user: #FFFFFF;
+
+    --title: #FFFFFF;
+    --subtitle: #D1D5DB;
+
+    --input: #ECECF0;
+    --on-input: #3A1C2E;
+    --input-border: #E1E1E6;
+
+    --send: #E60073;
+    --on-send: #FFFFFF;
+
+	--background: #FFFFFF;
+
+	--max-width: 1920px;
+	--min-width: 360px;
+}

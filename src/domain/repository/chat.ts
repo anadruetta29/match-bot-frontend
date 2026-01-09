@@ -1,6 +1,6 @@
-import type { ChatRequest } from "../dto/chat/ChatRequest";
-import type { ChatResponse } from "../dto/chat/ChatResponse";
+import type { ChatReq } from "../dto/chat/ChatReq";
+import type { ChatRes } from "../dto/chat/ChatRes";
 
 export abstract class ChatRepositoryI {
-    abstract sendMessage(dto: ChatRequest): Promise<ChatResponse>;
+    abstract sendMessage(dto: ChatReq): Promise<ChatRes>;
 }

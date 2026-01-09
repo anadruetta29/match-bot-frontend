@@ -1,6 +1,6 @@
 import type { ChatStatus } from "../../entity/chat-status";
 
-export interface ChatResponse {
+export interface ChatRes {
     session_id: string;
     status: ChatStatus;
 

@@ -1,0 +1,38 @@
+.message {
+    max-width: 75%;
+    padding: 12px 16px;
+    font-size: 14px;
+    line-height: 1.4;
+    word-wrap: break-word;
+    white-space: pre-wrap;
+}
+
+.user {
+    align-self: flex-end;
+    background-color: var(--buble-background-user);
+    border-radius: 18px;
+    padding: 14px 18px;
+}
+
+.user > p {
+    margin: 0;
+    color: var(--on-buble-background-user);
+    font-size: 14px;
+    line-height: 1.4;
+    font-weight: 500;
+}
+
+.bot {
+    align-self: flex-start;
+    background-color: var(--buble-background-chatbot);
+    border-radius: 18px;
+    padding: 14px 18px;
+}
+
+.bot > p {
+    margin: 0;
+    color: var(--on-buble-background-chatbot);
+    font-size: 14px;
+    line-height: 1.4;
+    font-weight: 500;
+}
